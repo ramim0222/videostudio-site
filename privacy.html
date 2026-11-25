@@ -3,51 +3,76 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Video Studio Privacy</title>
-<meta name="description" content="Privacy policy of Video Studio, a private YouTube upload tool.">
+<title>Video Studio Personal Privacy</title>
+<meta name="description" content="Privacy policy of Video Studio Personal, a private tool that uploads the owner's own videos to YouTube, Facebook, Instagram and TikTok.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-  <p><a href="index.html">← Video Studio</a></p>
+  <p><a href="index.html">← Video Studio Personal</a></p>
   <h1>Privacy policy</h1>
   <p class="muted">Last updated: 25 November 2026</p>
 
-  <p>Video Studio is a private tool. Its only user is its owner, S. M. Ramim, who uses it to upload and
-    schedule videos on the owner's own YouTube channel. This page explains what it does with data.</p>
+  <p>Video Studio Personal is a private tool. Its only user is its owner, S. M. Ramim, who uses it to upload and
+    schedule videos on the owner's own YouTube channel, Facebook Page, Instagram account and TikTok account.
+    This page explains what it does with data.</p>
 
   <h2>YouTube API Services</h2>
-  <p>Video Studio uses YouTube API Services. By using it you agree to the
+  <p>Video Studio Personal uses YouTube API Services. By using it you agree to the
     <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the
     <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies.</p>
 
+  <h2>TikTok</h2>
+  <p>Video Studio Personal uses TikTok's Login Kit and Content Posting API (upload to inbox). It only sends the
+    owner's videos to the owner's TikTok inbox as drafts; the owner posts them in the TikTok app. The
+    <a href="https://www.tiktok.com/legal/page/global/privacy-policy/en">TikTok Privacy Policy</a> applies to
+    TikTok's side.</p>
+
   <h2>What data it uses</h2>
   <ul>
-    <li><strong>Google sign-in:</strong> when the owner signs in, Google gives Video Studio an access token
+    <li><strong>Google sign-in:</strong> when the owner signs in, Google gives Video Studio Personal an access token
       for the owner's YouTube channel. The token is stored only on the owner's computer, in a private file.
       It is never sent anywhere except to Google.</li>
-    <li><strong>The channel's own information:</strong> the channel's name and its list of uploaded video
-      titles, so that the same video is never uploaded twice.</li>
+    <li><strong>TikTok sign-in:</strong> when the owner signs in with TikTok, TikTok gives Video Studio Personal an
+      access token for the owner's account, with two permissions: the account's basic profile (its display
+      name, to show which account is connected) and uploading videos to the owner's inbox. The token is stored
+      only in a private file on the owner's own server, and is never sent anywhere except to TikTok.</li>
+    <li><strong>Meta access:</strong> a token for the owner's own Facebook Page and its Instagram account,
+      stored only in a private file on the owner's computer and the owner's own server, and sent only to Meta.</li>
+    <li><strong>The accounts' own information:</strong> the channel's name and its list of uploaded video
+      titles, and the Page's and Instagram account's post captions, so that the same video is never uploaded
+      twice; and, on TikTok, whether a draft sent to the inbox was posted.</li>
     <li><strong>The owner's own videos:</strong> each video file with its title, description, tags,
-      thumbnail, subtitles, playlist and publish time, sent to YouTube to publish it.</li>
+      thumbnail, subtitles, playlist and publish time, sent to the platforms to publish it.</li>
+  </ul>
+
+  <h2>Where data is kept</h2>
+  <ul>
+    <li>On the owner's computer: the private sign-in files and a list of what was uploaded.</li>
+    <li>On the owner's own server (a rented virtual server that only the owner controls): each planned video
+      waits there until its time, and is deleted as soon as it is posted (a video that could not be posted is
+      deleted after 48 hours), with a small record of what was posted and the TikTok sign-in file.</li>
   </ul>
 
   <h2>What it does not do</h2>
   <ul>
     <li>It does not collect, store or process data of any other person.</li>
     <li>It does not sell, rent or share any data with anyone, and it has no analytics or ads.</li>
-    <li>It stores nothing on any server: a list of what was uploaded stays on the owner's computer.</li>
   </ul>
 
   <h2>Removing access</h2>
-  <p>Access can be removed at any time on the
-    <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>
-    (Third-party apps with account access → Video Studio → Remove access). Deleting the private file on
-    the owner's computer deletes the stored token.</p>
+  <ul>
+    <li>Google: on the <a href="https://security.google.com/settings/security/permissions">Google security
+      settings page</a> (Third-party apps with account access → Video Studio (the name of the Google app) → Remove access).</li>
+    <li>TikTok: in the TikTok app, Settings and privacy → Security and permissions → Apps and services
+      permissions → Video Studio Personal → Remove access.</li>
+    <li>Meta: Facebook Settings → Business integrations → Video Studio Personal → Remove.</li>
+    <li>Deleting the private files on the owner's computer and server deletes the stored tokens.</li>
+  </ul>
 
   <h2>Contact</h2>
   <p>Questions about this policy: <a href="mailto:ramim.sm222@gmail.com">ramim.sm222@gmail.com</a></p>
 </main>
-<footer>Video Studio · <a href="index.html">Home</a></footer>
+<footer>Video Studio Personal · <a href="index.html">Home</a> · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a></footer>
 </body>
 </html>
